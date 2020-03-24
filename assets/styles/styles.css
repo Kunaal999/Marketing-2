@@ -1,0 +1,351 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.header {
+    height: 90px;
+    padding-top: 14px;
+}
+/*---here width specify---*/
+.nav_width,.slider_width, .services_width, .about_width, .partners_width, .team_width, .achievements_width, .quote_width, .packages_width {
+  max-width: 1140px!important;
+  margin: 0 auto!important;
+}
+.bg-img img{
+  width: 100%;
+}
+.nav-link:hover{
+  color: #01994d!important;
+  transition: 0.5s;
+}
+.title_big {
+    font-size: 54px;
+    font-weight: 300;
+    color: #ffffff;
+}
+.title_small {
+    font-weight: 300;
+    font-size: 26px;
+    color: #ffffff;
+}
+.main-bg-wrapper{
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.button-wrapper {
+    margin-right: 4em;
+}
+.heading-wrapper {
+    text-align: center;
+    padding: 5em 0em;
+}
+.heading-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+}
+.button_white {
+    border: none;
+    background-color: white;
+    padding: 1em 2.5em;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.button-transparent{
+  padding: 1em 2.5em;
+  border-radius: 6px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+.button-transparent:hover{
+  background-color: white;
+  transition: 0.5s;
+  color: black;
+}
+.services-heading {
+    text-align: center;
+    padding-top: 6em;
+    margin-bottom: 7em;
+}
+.services-icon{
+  font-size: 4em;
+  color: #01994d;
+}
+.float {
+    float: left;
+    margin: 0em 2em 9em 0px;
+}
+.button_light {
+    padding: 1.2em 4em;
+    margin-right: 4em;
+    border: 1px solid #e7e8ec;
+    background-color: #f7f8fa;
+    border-radius: 7px;
+}
+.button_light:hover{
+  color: #01994d;
+  transition: 0.5s;
+}
+i.fas.fa-cloud-download-alt,.fa-share {
+    margin-right: 1em;
+}
+.about {
+    background-color: whitesmoke;
+    margin-top: 6em;
+    padding-top: 8em;
+}
+.founder {
+  width: 168px;
+  border-radius: 11px;
+  height: 176px;
+  margin-right: 2em;
+}
+
+.flex {
+    flex: 1;
+  }
+.clients-img{
+  margin-right: 2em;
+}
+.clients{
+  border-radius: 50%;
+  width: 80px;
+}
+.green{
+  color: #01994d;
+}
+.button-discover {
+    padding: 0.5em 1em;
+    background-color: whitesmoke;
+    border: 1px solid #e7e8ec;
+    color: #01994d;
+    border-radius: 2px;
+}
+.button-discover:hover{
+  color: #656565;
+}
+.first-partner{
+  width: 174px;
+  height: 100px;
+}
+.second-partner{
+  width: 130px;
+  height: 100px;
+}
+.fouth-partner{
+    width: 90px;
+    height: 100px;
+}
+.fifth-partner{
+  width: 106px;
+  height: 100px;
+}
+.third-partner{
+  width: 110px;
+  height: 100px;
+}
+.sixth-partner{
+  width: 154px;
+  height: 100px;
+}
+.partners-img{
+  width: 100px;
+}
+.margin{
+  margin: 10px 30px;
+}
+.boder-top {
+    height: 2px;
+    width: 1140px;
+    background-color: #e7e8ec;
+    margin-bottom: 4em;
+    margin-top: 4em;
+}
+#partners{
+  margin-bottom: 4em;
+}
+.team_bg{
+  background-color: #393f43;
+}
+.team-title{
+  color: #ddd;
+  margin-bottom: 1.5em;
+}
+.team-subtitle{
+  color: #bbb;
+}
+.img-rounded{
+  border-radius: 8px;
+}
+.text_green{
+  color: #01994d;
+  font-size: 17px;
+  font-weight: 500;
+}
+.text_font{
+  font-size: 15px;
+  font-weight: 300;
+  font-style: italic;
+}
+.team-para{
+  font-size: 14px;
+  font-weight: 300;
+  color: #bbb;
+}
+.social_color{
+  color: #bbb;
+}
+li{
+    font-size: 1em;
+    list-style: none;
+    display: inline-block;
+    margin-right: 1em;
+}
+.achivements-title{
+  font-size: 48px;
+  color: #01994d;
+  font-weight: 500;
+}
+.bg-color{
+  background-color: #2f3539;
+}
+.achivements-para{
+  color: #bbb;
+}
+.achivement-margin{
+  margin-right: 7em;
+}
+.title_font{
+  font-weight: 400;
+}
+.portfolio-bg{
+  background-color: #f9f9f9;
+}
+.font-weight{
+  font-weight: 300;
+}
+.portfolio-title {
+  text-align: center;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+.work{
+  width: 100%;
+}
+.work2, .work3{
+  width: 395px;
+  height: 380.74px;
+}
+.work4 {
+    width: 759.9px;
+}
+.design-img{
+  position: relative;
+  overflow: hidden;
+}
+.quote-bg{
+  background-color: #393f43;
+  padding: 4em 0em;
+}
+.email{
+  border-right: 1px solid #2a2f37;
+}
+.quote-title{
+  color: #ddd;
+}
+.quote-para{
+  color: #bbb;
+}
+.Email{
+  max-width: 350px;
+  width: 91%;
+  height: 56px;
+  line-height: 56px;
+  padding: 0 4%;
+  border: 1px solid #2a2f37;
+  background-color: #2f3539;
+  border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  margin: 0 10px 0 0;
+}
+.submit-button{
+  width: 140px;
+  height: 56px;
+  color: #fff;
+  background-color: #27ae60;
+  border: 1px solid #27ae60;
+  display: inline;
+  margin: 0 5px 0 0;
+  border-radius: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  vertical-align: top;
+  transition: background-color .25s ease-in-out;
+}
+#quote-wrapper{
+  padding-left: 5em;
+}
+.terms_border{
+  border: 1px solid #e7e8ec;
+}
+.term-head{
+  margin: 0;
+  padding: 14px 0;
+  color: #454545;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #f7f8fa;
+  border: 1px solid #e7e8ec;
+}
+.term-value{
+  margin: 0;
+  padding: 28px 0;
+  color: #01994d;
+  font-size: 24px;
+  font-weight: 600;
+  background-color: #fff;
+  border-right: 1px solid #e7e8ec;
+  border-left: 1px solid #e7e8ec;
+  border-bottom: 1px solid #e7e8ec;
+  text-transform: uppercase;
+}
+.term-offer, .term-pages, .term-storage, .term-traffic{
+  padding: 10px 0;
+  font-size: 13px;
+  color: #28323c;
+  background-color: #fff;
+  border-right: 1px solid #e7e8ec;
+  border-left: 1px solid #e7e8ec;
+  border-bottom: 1px solid #e7e8ec;
+  margin-bottom: 0px!important;
+}
+.width{
+  width: 285px;
+}
+.term-button{
+  font-size: 12px;
+  padding: 10px 20px;
+  background-color: #27ae60;
+  border: 1px solid #27ae60;
+  color: #fff;
+  border-radius: 5px 5px;
+  border-radius: 5px 5px;
+  width: 156px;
+  transform: translateX(68px);
+}
+.button-wrapper{
+  background-color: #f7f8fa;
+  border-right: 1px solid #e5e5e5;
+  border-left: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 26px 0 31px 0;
+}
