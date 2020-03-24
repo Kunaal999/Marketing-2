@@ -342,10 +342,11 @@ li{
   width: 156px;
   transform: translateX(68px);
 }
-.button-wrapper{
+.packages-button{
   background-color: #f7f8fa;
   border-right: 1px solid #e5e5e5;
   border-left: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
   padding: 26px 0 31px 0;
+  width: 285px;
 }
